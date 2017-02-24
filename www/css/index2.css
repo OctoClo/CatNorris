@@ -46,3 +46,7 @@ button {
     bottom: 50%;
     right: 50%;
 }
+
+#contenuPageChat {
+    display: none;
+}
