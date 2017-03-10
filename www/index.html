@@ -2,20 +2,31 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' http:">
         <meta name="format-detection" content="telephone=no"/>
         <meta name="msapplication-tap-highlight" content="no"/>
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>CatNorris</title>
+        <title>Cat Norris</title>
     </head>
     <body>
-			<center>
-        <h1>Bienvenue</h1><br>
-        <p id="citation">Texte initial</p><br>
-				<img id="gif" src="" align="center" /><br>
-      </center>
-
+			<div id="contenuPageChuck" style="text-align:center">
+				<center>
+	          <br><h1>Welcome</h1><br>
+	          <p id="citationChuck">Waiting for the quote...</p><br>
+	          <img id="gifChuck" src="" align="center" /><br><br>
+	          <input id="boutonChuckChat" type="submit" value="Cats"/><br>
+	          <!--<input id="boutonActualiser" type="submit" value="Actualiser"/>-->
+	      </center>
+			</div>
+			<div id="contenuPageChat" style="text-align:center">
+	      <center>
+	          <br><h1>Welcome</h1><br>
+	          <p id="citationChat">Waiting for the quote...</p><br>
+	          <img id="gifChat" src="" align="center" /><br><br>
+	          <input id="boutonChatChuck" type="submit" value="Chuck Norris"/><br>
+	          <!--<input id="boutonActualiser" type="submit" value="Actualiser"/>-->
+	      </center>
+			</div>
       <script type="text/javascript" src="cordova.js"></script>
       <script type="text/javascript" src="js/index.js"></script>
     </body>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>CatNorris</name>
+		<icon src="www/img/logo.png" width="57" height="57" density="mdpi" />
+		<name>Cat Norris</name>
     <description>
         Application CatNorris !
     </description>

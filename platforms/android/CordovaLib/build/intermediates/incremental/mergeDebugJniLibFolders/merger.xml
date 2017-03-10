@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\IUT\Semestre4\M4104_Cordova\CatNorris\platforms\android\CordovaLib\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="E:\IUT\Semestre4\M4104_Cordova\CatNorris\platforms\android\CordovaLib\src\debug\jniLibs"/></dataSet></merger>
