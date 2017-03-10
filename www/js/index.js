@@ -1,20 +1,22 @@
-// Initialiser l'application : ajout des listeners
+// Lancer l'application
+initialize();
+
+// Initialiser l'application : afficher une citation
 function initialize() {
   chercherCitation();
 }
 
-// Lancer l'application
-initialize();
-
-// Afficher la deuxième page
+// Récupérer une citation
 function chercherCitation() {
-	// Requête HTTP pour récupérer la météo
+	// Requête HTTP pour récupérer la citation
 	var url = "http://api.icndb.com/jokes/random";
 	var requete = new XMLHttpRequest();
+
+	// Envoi de la requête
 	requete.open('GET', url, true);
 	requete.send();
 
-	// Créer l'élément qui affiche la météo
+	// Modifier le texte pour afficher la citation quand la requête revient
 	requete.onreadystatechange = function (aEvt) {
 		if (requete.readyState == 4) {
 			if (requete.status == 200) {
